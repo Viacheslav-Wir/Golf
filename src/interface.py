@@ -5,7 +5,7 @@ screen = pygame.display.set_mode((1280, 640))
 done = False
 is_blue = True
 x = 30
-y = 30
+y = 35
 
 clock = pygame.time.Clock()
 background = pygame.image.load("../resources/img/background.png")
