@@ -10,7 +10,7 @@ y = 35
 clock = pygame.time.Clock()
 background = pygame.image.load("../resources/img/background.png")
 ball = pygame.image.load("../resources/img/ball.png")
-golf_club = pygame.image.load("../resources/img/golf_club.png")
+golf_club = pygame.image.load("../resources/img/golf-club.png")
 
 while not done:
         for event in pygame.event.get():
@@ -30,6 +30,7 @@ while not done:
         # Set display background
         screen.blit(background, (0, 0))
         screen.blit(ball, (20, 20))
+        screen.blit(golf_club, (30, 30))
 
         if is_blue: 
             color = (0, 128, 255)
