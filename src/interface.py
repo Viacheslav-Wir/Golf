@@ -28,11 +28,14 @@ while not done:
 
         # Set display background
         screen.blit(background, (0, 0))
+        screen.blit(ball, (20, 20))
+
         if is_blue: 
             color = (0, 128, 255)
         else: 
             color = (255, 100, 0)
         pygame.draw.rect(screen, color, pygame.Rect(x, y, 60, 60))
+
         
         pygame.display.flip()
         clock.tick(60)
