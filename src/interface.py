@@ -10,6 +10,7 @@ y = 35
 clock = pygame.time.Clock()
 background = pygame.image.load("../resources/img/background.png")
 ball = pygame.image.load("../resources/img/ball.png")
+golf_club = pygame.image.load("../resources/img/golf_club.png")
 
 while not done:
         for event in pygame.event.get():
