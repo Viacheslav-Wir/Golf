@@ -61,10 +61,8 @@ while True:
 
         screen.fill((0, 0, 0))
         screen.blit(background, (0, 0))
-        # screen.blit(ball, ballrect)
-
         # screen.blit(golf_club, (30, 0))
-        mtime += 1
+
         particle.get_coordinates(x_start, y_start)
         # print(particle.path)
         particle.display(ball)
@@ -75,4 +73,3 @@ while True:
         
         pygame.display.flip()
         clock.tick(30)
-
