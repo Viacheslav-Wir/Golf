@@ -76,23 +76,6 @@ class Particle():
         self.walls.sort()
         # print(self.walls)
 
-    # def get_walls(self, list_coord):
-    #     temp_x = 1048
-    #     temp_y = y_improve
-    #     for i, j in enumerate(list_coord):
-    #         if i % 2 == 0:
-    #             self.walls.append(("XXXX"))
-    #             self.walls.extend([(x, temp_y) for x in range(temp_x, j[0]+1)])
-    #             temp_x = j[0]
-    #         if i % 2 == 1:
-    #             self.walls.append(("YYYYY"))
-    #             self.walls.extend([(temp_x, y) for y in range(temp_y, j[1]+1)])
-    #             temp_y = j[1]
-    #     self.walls.append(("FFFFF"))
-    #     self.walls.extend([(x, temp_y) for x in range(temp_x, 1090)])
-    #     print(self.walls)
-    #     # print(sorted(self.walls))
-
     def get_speed_angles(self):
         # Club angle from -220 to 18
         if self.do_once_speed:
