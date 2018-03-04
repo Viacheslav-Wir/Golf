@@ -1,0 +1,1 @@
+"Left", "Right" - change speed%"Up", "Down" - change angle%"Space" - hit the ball%"Backspace" - reset game%"Esc" - exit game
