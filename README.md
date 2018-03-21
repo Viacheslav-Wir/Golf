@@ -2,7 +2,7 @@
 
 # Requirements
 ```bash
-pip install pymunk pygame
+pip install pygame
 ```
 
 # To play
