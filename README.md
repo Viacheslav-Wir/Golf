@@ -1,5 +1,4 @@
 # PyGolfGame
-Оn development stage
 
 # Requirements
 ```bash
